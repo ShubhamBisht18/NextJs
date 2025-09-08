@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* @theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+} */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #e5d5a0;
+  }
+}
+
+
+body {
+  background: var(--foreground);
+  color: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Left to Right (Slide In) */
+.left-right {
+  animation: leftRight 2s ease-out forwards;
+}
+
+@keyframes leftRight {
+  0% { transform: translateX(-50%); opacity: 0; } /* start off-screen left */
+  100% { transform: translateX(0); opacity: 1; }    /* end at original position */
+}
+
+/* Right to Left (Slide In) */
+.right-left {
+  animation: rightLeft 2s ease-out forwards;
+}
+
+@keyframes rightLeft {
+  0% { transform: translateX(50%); opacity: 0; } /* start off-screen right */
+  100% { transform: translateX(0); opacity: 1; }  /* end at original position */
+}
+
+/* Up to Down (Slide In) */
+.up-down {
+  animation: upDown 1s ease-out forwards;
+}
+
+@keyframes upDown {
+  0% { transform: translateY(-100%); opacity: 0; } /* start off-screen top */
+  100% { transform: translateY(0); opacity: 1; }   /* end at original position */
+}
+
+/* Down to Up (Slide In) */
+.down-up {
+  animation: downUp 1s ease-out forwards;
+}
+
+@keyframes downUp {
+  0% { transform: translateY(100%); opacity: 0; }  /* start off-screen bottom */
+  100% { transform: translateY(0); opacity: 1; }   /* end at original position */
+}
+
+/* Infinite Up & Down (Same as before) */
+.infinite-up-down {
+  animation: infiniteUpDown 1.5s ease-in-out infinite;
+}
+
+@keyframes infiniteUpDown {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
