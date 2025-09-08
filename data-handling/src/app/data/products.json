@@ -1,0 +1,91 @@
+[
+  {
+    "id": "1",
+    "name": "Classic Tee",
+    "price": 799,
+    "image": "https://picsum.photos/id/1011/600/400",
+    "description": "Soft cotton tee for everyday wear.",
+    "category": "T-Shirts",
+    "size": ["S", "M", "L", "XL"],
+    "stock": 25,
+    "rating": 4.3
+  },
+  {
+    "id": "2",
+    "name": "Denim Jacket",
+    "price": 2499,
+    "image": "https://picsum.photos/id/1027/600/400",
+    "description": "Layer-friendly and timeless.",
+    "category": "Jackets",
+    "size": ["M", "L", "XL"],
+    "stock": 10,
+    "rating": 4.7
+  },
+  {
+    "id": "3",
+    "name": "Joggers",
+    "price": 1299,
+    "image": "https://picsum.photos/id/1005/600/400",
+    "description": "Comfort fit with tapered legs.",
+    "category": "Pants",
+    "size": ["S", "M", "L"],
+    "stock": 30,
+    "rating": 4.5
+  },
+  {
+    "id": "4",
+    "name": "Sneakers",
+    "price": 2999,
+    "image": "https://picsum.photos/id/21/600/400",
+    "description": "Everyday sneakers with cushioned sole.",
+    "category": "Shoes",
+    "size": [7, 8, 9, 10, 11],
+    "stock": 15,
+    "rating": 4.6
+  },
+  {
+    "id": "5",
+    "name": "Hoodie",
+    "price": 1599,
+    "image": "https://picsum.photos/id/1025/600/400",
+    "description": "Cozy fleece hoodie for chilly days.",
+    "category": "Hoodies",
+    "size": ["M", "L", "XL"],
+    "stock": 20,
+    "rating": 4.4
+  },
+  {
+    "id": "6",
+    "name": "Leather Belt",
+    "price": 699,
+    "image": "https://picsum.photos/id/1062/600/400",
+    "description": "Durable leather belt with classic buckle.",
+    "category": "Accessories",
+    "size": ["M", "L"],
+    "stock": 40,
+    "rating": 4.2
+  },
+  {
+    "id": "7",
+    "name": "Baseball Cap",
+    "price": 499,
+    "image": "https://picsum.photos/id/1084/600/400",
+    "description": "Casual cotton cap with adjustable strap.",
+    "category": "Accessories",
+    "size": ["Free"],
+    "stock": 35,
+    "rating": 4.1
+  },
+  {
+    "id": "8",
+    "name": "Formal Shirt",
+    "price": 1199,
+    "image": "https://picsum.photos/id/1003/600/400",
+    "description": "Slim-fit formal shirt for office wear.",
+    "category": "Shirts",
+    "size": ["S", "M", "L", "XL"],
+    "stock": 18,
+    "rating": 4.5
+  }
+]
+
